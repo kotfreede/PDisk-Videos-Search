@@ -51,7 +51,7 @@ PDiskBot = Client(
 
 @PDiskBot.on_message(filters.command("start") & ~filters.edited)
 async def start_handler(_, m: Message):
-    await m.reply_text("Hi, I am Alive!\n\nSearch using /request command.", quote=True)
+    await m.reply_text("𝗛𝗜, 𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘!\n\n𝗦𝗘𝗔𝗥𝗖𝗛 𝗨𝗦𝗜𝗡𝗚 /request 𝗖𝗢𝗠𝗠𝗡𝗘𝗗 𝗣𝗢𝗪𝗘𝗥 𝗕𝗬 : @KOT_BOTS.", quote=True)
 
 
 @PDiskBot.on_message(filters.command("request", prefixes=["#", "/"]) & ~filters.edited, group=-1)
@@ -64,7 +64,7 @@ async def text_handler(_, m: Message):
         traceback.print_exc()
         try: await editable.edit("Failed to search!",
                                  reply_markup=InlineKeyboardMarkup([
-                                     [InlineKeyboardButton("Sumpot Group", url="https://t.me/JoinOT")]
+                                     [InlineKeyboardButton("Sumpot Group", url="https://t.me/KOT_REPORS")]
                                  ]))
         except MessageNotModified: pass
     elif not response["data"]["list"]:
