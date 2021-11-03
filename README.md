@@ -1,5 +1,5 @@
 # PDisk-Videos-Search
-A Telegram bot for searching videos in your PDisk account by [@AbirHasan2005](https://t.me/AbirHasan2005).
+A Telegram bot for searching videos in your PDisk account by [@kotfreede](https://t.me/KOT_FREE_DE_LA_HOYA_OFF).
 
 ### Configs
 - `API_ID` - Get from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
